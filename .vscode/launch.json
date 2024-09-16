@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "OnlineFoodOrderingApplication",
+            "request": "launch",
+            "mainClass": "com.food.OnlineFoodOrdering.OnlineFoodOrderingApplication",
+            "projectName": "Online-Food-Ordering"
+        },
+        {
+            "type": "java",
+            "name": "Run with AppMap",
+            "request": "launch",
+            "mainClass": "",
+            "vmArgs": "-javaagent:${userHome}\\.appmap\\lib\\java\\appmap.jar"
+        }
+    ]
+}

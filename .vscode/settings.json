@@ -1,0 +1,19 @@
+{
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.test.config": [
+        {
+            "name": "Test with AppMap",
+            "vmArgs": [
+                "-javaagent:${userHome}\\.appmap\\lib\\java\\appmap.jar",
+                "-Dappmap.output.directory=${command:appmap.getAppmapDir}"
+            ]
+        }
+    ],
+    "zenMode.hideStatusBar": true,
+    "zenMode.restore": true,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.colorCustomizations": {
+       
+    }
+}

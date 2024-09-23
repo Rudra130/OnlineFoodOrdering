@@ -15,5 +15,6 @@
     "workbench.activityBar.iconClickBehavior": "toggle",
     "workbench.colorCustomizations": {
        
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

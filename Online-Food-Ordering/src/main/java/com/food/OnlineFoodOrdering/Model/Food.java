@@ -52,8 +52,4 @@ public class Food {
     private Date creationDate;
 
 
-
-
-    
-
 }
